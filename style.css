@@ -1,0 +1,63 @@
+body{
+	font-family: sans-serif;
+	background-color: lightblue;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-style: italic;
+}
+p{
+	background-color: lightgreen;
+}
+h4{
+	background-color: white;
+}
+.clothing-grid{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr,));
+	gap: 20px;
+	padding: 20px;
+}
+.clothing-item{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3 ease;
+}
+.clothing-image{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	display: block;
+}
+.clothing-description{
+	padding: 15px;
+}
+.clothig-description h3{
+	margin-top: 0;
+
+}
+.clothing-description a{
+	color: 3007bff;
+	text-decoration:none;
+
+}
+.clothing-item:hover {
+	transform: tranlateY(-5px);
+	box-shadow:  0 8px 15px rgba(0, 0, 0, 0.2) ;
+}
+.video{
+	width: 20px;eight: 25px;
+	h
+}
+/* Footer */
+footer {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 20px;
+}
