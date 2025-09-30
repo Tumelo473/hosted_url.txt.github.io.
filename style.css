@@ -1,6 +1,6 @@
 body{
 	font-family: sans-serif;
-	background-color: lightblue;
+	background-color: beige;
 	margin: 0;
 	padding: 0;
 }
@@ -60,4 +60,5 @@ footer {
   text-align: center;
   padding: 1em;
   margin-top: 20px;
+
 }
